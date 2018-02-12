@@ -33,4 +33,19 @@ print(fruitBasket[1])
 
 //let's print out item at index 0
 
+//Part 8, Start of Assignment #4
+
+var numberLineup: [Int]
+
+numberLineup = [27,24,31,67,90]
+
+for number in numberLineup{
+print("My favorite number is " ,number)
+}
+
+let removed = numberLineup.remove(at:2)
+print(numberLineup)
+
+numberLineup.append(800)
+print(numberLineup)
 
